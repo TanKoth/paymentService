@@ -12,7 +12,7 @@ import lombok.Setter;
 @Entity
 public class Payment extends BaseModel{
 
-    private String orderId;
+    private Long orderId;
     private String paymentId;
     private String paymentLink;
 
